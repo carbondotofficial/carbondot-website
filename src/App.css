@@ -446,12 +446,13 @@ nav a:hover::after { width: 100%; }
 }
  
 .process-arrow {
-  font-size: 60px !important;
-  font-weight: 900;
-  color: #1db954;
-  margin: 0 20px;
-  display: inline-block;
-  vertical-align: middle;
+    font-size: 42px;
+    font-weight: 700;
+    color: #1db954;
+    margin: 0 18px;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 1;
 }
  
 .process-top > p {
