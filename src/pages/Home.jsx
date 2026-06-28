@@ -169,10 +169,10 @@ function Home() {
           <div className="process-title">
             <span className="eyebrow">HOW IT WORKS</span>
             <h2>
-              Capture <span className="process-arrow">&#10230;</span>
-              Convert <span className="process-arrow">&#10230;</span>
-              Utilize
-            </h2>
+  Capture <span className="process-arrow">&bull;</span>
+Convert <span className="process-arrow">&bull;</span>
+Utilize
+</h2>
           </div>
         
         </div>
