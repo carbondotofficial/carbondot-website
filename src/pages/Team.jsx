@@ -42,7 +42,7 @@ function Team() {
         <div className="team-card">
           <img src="/Dr Annapurna Boruah.jpeg" alt="Dr Annapurna Boruah" />
           <h3>Dr. Annapurna Boruah</h3>
-          <span>Chief Technology Officer</span>
+          <span>Faculty advisor</span>
           <p>
             Lead architect of CarbonDot's capture technology.
           </p>
