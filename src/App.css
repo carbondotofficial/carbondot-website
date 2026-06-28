@@ -1323,8 +1323,9 @@ nav a:hover::after { width: 100%; }
 }
 
 .ip-list li {
-  margin-bottom: 14px;
-  color: white;
+    list-style: none;
+    margin-bottom: 14px;
+    color: white;
 }
 
 .ip-card {
