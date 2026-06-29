@@ -852,9 +852,9 @@ nav a:hover::after { width: 100%; }
  
 .investors-right h2 {
     font-family: 'Inter', sans-serif;
-    font-size: clamp(48px, 4vw, 72px);
+    font-size: clamp(40px, 3.2vw, 54px);
     font-weight: 800;
-    line-height: 1.15;
+    line-height: 1.05;
     color: #0a120e;
     margin-bottom: 20px;
     letter-spacing: -1px;
@@ -975,6 +975,12 @@ nav a:hover::after { width: 100%; }
   background: #fff;
   flex-shrink: 0;
   transition: border-color 0.2s, background 0.2s;
+}
+
+.contact-icon img {
+    width: 30px;
+    height: 30px;
+    object-fit: contain;
 }
  
 .contact-item:hover .contact-icon {

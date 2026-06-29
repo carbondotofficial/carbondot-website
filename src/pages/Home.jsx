@@ -65,7 +65,7 @@ function Home() {
           <a href="#contact">Contact Us</a>
         </nav>
        <div className="nav-buttons">
-  <a href="#investors" className="partner-btn">
+  <a href="#contact" className="partner-btn">
     Partner with us
   </a>
 </div>
@@ -169,8 +169,8 @@ function Home() {
           <div className="process-title">
             <span className="eyebrow">HOW IT WORKS</span>
             <h2>
-  Capture <span className="process-arrow">&bull;</span>
-Convert <span className="process-arrow">&bull;</span>
+Capture <span className="process-dot"></span>
+Convert <span className="process-dot"></span>
 Utilize
 </h2>
           </div>
@@ -315,10 +315,7 @@ Utilize
             <span>CAPTURE RATE</span>
             <h3>85%</h3>
           </div>
-          <div className="energy-penalty">
-            <span>ENERGY PENALTY</span>
-            <h3>&#8595;35%</h3>
-          </div>
+          
         </div>
       </section>
  
@@ -410,9 +407,9 @@ Utilize
         <div className="contact-left">
           <span className="contact-label eyebrow">GET IN TOUCH</span>
           <h2>
-            Let's decarbonize
+            Let's Decarbonize
             <br />
-            together
+            Together
           </h2>
           <p>
             Whether you're an industrial buyer evaluating capture technology,
@@ -429,7 +426,9 @@ Utilize
             </div>
           
             <div className="contact-item">
-              <div className="contact-icon">&#8982;</div>
+              <div className="contact-icon">
+  <img src="/location-card.png" alt="Location" />
+</div>
               <div>
                 <span>HEADQUARTERS</span>
                 <h4>Dehradun, India</h4>
