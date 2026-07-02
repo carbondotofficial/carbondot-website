@@ -451,8 +451,10 @@ nav a:hover::after { width: 100%; }
     background: #1db954;
     border-radius: 50%;
     display: inline-block;
-    margin: 0 17px;
-    vertical-align: middle;
+    margin: 0 24px;
+    vertical-align: baseline;
+    position: relative;
+    top: 14px;
 }
  
 .process-top > p {
