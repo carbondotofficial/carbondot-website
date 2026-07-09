@@ -64,7 +64,15 @@ function Home() {
           <Link to="/team">Our Team</Link>
           <a href="#contact">Contact Us</a>
         </nav>
-       <div className="nav-buttons">
+     <div className="nav-buttons">
+  <a
+    href="/CarbonDot_Pitch Deck.pdf"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="partner-btn"
+>
+    Get Investor Deck
+</a>
   <a href="#contact" className="partner-btn">
     Partner with us
   </a>
@@ -376,12 +384,6 @@ Utilize
       CarbonDot's WBCC system is supported by proprietary process
       innovations and protected technical know-how.
     </p>
-
-    <ul className="ip-list">
-      <li>Proprietary solvent regeneration loop</li>
-      <li>Capture-rate optimization algorithms</li>
-      <li>Regional patent protection strategy</li>
-    </ul>
 
     <a href="#contact" className="partner-btn">
   Request Technical Whitepaper

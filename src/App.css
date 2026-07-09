@@ -94,6 +94,9 @@ nav a:hover::after { width: 100%; }
  
 /* ── SHARED BUTTONS ── */
 .partner-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   padding: 11px 24px;
   border: none;
   background: #1db954;
@@ -103,6 +106,7 @@ nav a:hover::after { width: 100%; }
   font-weight: 600;
   font-family: 'Inter', sans-serif;
   cursor: pointer;
+  text-decoration: none;
   transition: background 0.2s, transform 0.2s, box-shadow 0.2s;
   box-shadow: 0 2px 12px rgba(29, 185, 84, 0.28);
 }
@@ -114,6 +118,10 @@ nav a:hover::after { width: 100%; }
 }
  
 .deck-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
   padding: 11px 24px;
   border: 1.5px solid #d1d5db;
   background: transparent;
@@ -122,7 +130,9 @@ nav a:hover::after { width: 100%; }
   font-size: 14px;
   font-weight: 600;
   font-family: 'Inter', sans-serif;
+  text-decoration: none;
   cursor: pointer;
+
   transition: border-color 0.2s, background 0.2s, transform 0.2s;
 }
  
@@ -131,7 +141,7 @@ nav a:hover::after { width: 100%; }
   background: #f0faf4;
   transform: translateY(-2px);
 }
- 
+
 /* ============================================================
    HERO
    ============================================================ */
@@ -530,6 +540,19 @@ nav a:hover::after { width: 100%; }
   font-size: 15px;
   color: #64748b;
   line-height: 1.8;
+}
+
+.process-tags {
+    display: flex;
+    justify-content: center;
+    gap: 7px;
+    margin-top: 12px;
+    flex-wrap: wrap;
+}
+
+.process-tags span {
+    font-size: 16px;
+    color: #111827;
 }
  
 /* ============================================================
