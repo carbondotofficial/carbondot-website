@@ -26,7 +26,7 @@ function Team() {
           <h3>Udbhav Agarwal</h3>
           <span>Chief Executive Officer</span>
           <p>
-            Visionary leader driving commercialization and growth.
+           Leads CarbonDot’s business strategy, partnerships, and commercialization.
           </p>
         </div>
 
@@ -35,7 +35,7 @@ function Team() {
           <h3>Daksh Ingle</h3>
           <span>Chief Operating Officer</span>
           <p>
-            Industrial optimization expert and operations leader.
+            Drives operations, execution, and the development of scalable processes.
           </p>
         </div>
 
@@ -44,7 +44,7 @@ function Team() {
           <h3>Dr. Annapurna Boruah</h3>
           <span>Strategic Advisor</span>
           <p>
-            Lead architect of CarbonDot's capture technology.
+            Guides technology development and supports the strategic direction of CarbonDot.
           </p>
           <div className="team-members-grid">
 
